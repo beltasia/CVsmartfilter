@@ -1,30 +1,46 @@
-# Cv filter system
+# CVsmartfilter – CV Filter Systemy
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+A web-based tool that streamlines the recruitment process by allowing recruiters to upload, parse, and score candidate CVs automatically. Built with **Next.js** and deployed on **Vercel**, CVsmartfilter saves time by filtering applicants against job criteria so only the best matches make it to your shortlist.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/mellisas-projects-b938dd2d/v0-cv-filter-system)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/ODgVqX763YR)
+---
 
-## Overview
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+##  Live Version
 
-## Deployment
+**Project live at:** [Vercel – CV Filter System](https://vercel.com/mellisas-projects-b938dd2d/v0-cv-filter-system)  
+**Build or tweak on:** [v0.dev Project](https://v0.dev/chat/projects/ODgVqX763YR)
 
-Your project is live at:
+---
 
-**[https://vercel.com/mellisas-projects-b938dd2d/v0-cv-filter-system](https://vercel.com/mellisas-projects-b938dd2d/v0-cv-filter-system)**
+##  How It Works
 
-## Build your app
+1. Create or edit your app on **v0.dev**.  
+2. Deploy via the v0 interface.  
+3. Changes auto-sync to this GitHub repo.  
+4. Vercel grabs it and deploys the latest. Magic.
 
-Continue building your app on:
+---
 
-**[https://v0.dev/chat/projects/ODgVqX763YR](https://v0.dev/chat/projects/ODgVqX763YR)**
+##  Tech Stack & Project Structure
 
-## How It Works
+- **TypeScript** (around 93.7%) — keep those types tight  
+- **CSS** (about 6%) — because style matters  
+- A little sprinkle of **JavaScript** (~0.3%) — legacy flair  
+  :contentReference[oaicite:0]{index=0}
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+- Standard Next.js organization:
+  - `app/`, `components/`, `lib/`, `public/`, `styles/`
+  - Core configs: `next.config.mjs`, `postcss.config.mjs`, `tsconfig.json`
+  - Dependency game: `package.json`, `pnpm-lock.yaml`
+
+---
+
+##  Getting Started (Run Locally)
+
+Wanna run it yourself? Here's the lowdown:
+
+```bash
+git clone https://github.com/beltasia/CVsmartfilter.git
+cd CVsmartfilter
+pnpm install
+pnpm run dev
